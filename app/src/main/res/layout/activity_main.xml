@@ -7,66 +7,84 @@
     tools:context=".MainActivity">
 
     <GridLayout
+        android:id="@+id/gridLayoutId"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:rowCount="4"
-        android:columnCount="2" >
+        android:columnCount="2"
+        android:layout_margin="5dp">
 
         <Button
             android:id="@+id/btn1"
-            android:text="Button"
+            android:text="Do you \nspeak English?"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="doyouspeakenglish"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/btn2"
-            android:text="Button"
+            android:text="good evening"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="goodevening"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/btn3"
-            android:text="Button"
+            android:text="HELLO"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="hello"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/btn4"
-            android:text="Button"
+            android:text="HOW ARE YOU?"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="howareyou"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/btn5"
-            android:text="Button"
+            android:text="i live in"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="ilivein"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/btn6"
-            android:text="Button"
+            android:text="my name is..."
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="mynameis"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/btn7"
-            android:text="Button"
+            android:text="please"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="please"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/btn8"
-            android:text="Button"
+            android:text="welcome"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"/>
+            android:layout_columnWeight="1"
+            android:tag="welcome"
+            android:onClick="playPhrase"/>
 
     </GridLayout>
 
