@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4"
+        android:columnCount="2" >
+
+        <Button
+            android:id="@+id/btn1"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn7"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:text="Button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+    </GridLayout>
+
+
+</LinearLayout>
